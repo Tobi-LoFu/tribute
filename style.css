@@ -1,0 +1,125 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+   background-color: rgb(203, 209, 221);
+}
+
+h1 {
+   width: 40%;
+   display: block;
+   padding: 1.125rem;
+   margin: 1.125rem auto;
+   text-align: center;
+   font-size: 3rem;
+   background-color: slategray;
+   border-radius: 1rem;
+   color: #f0f3f6;
+}
+
+h2 {
+   width: 50%;
+   display: block;
+   padding: 1rem;
+   margin: 1rem auto;
+   text-align: center;
+   background-color: rgb(210, 224, 238);
+   border-radius: 0.75rem;
+   color: rgb(87, 84, 84);
+   font-style: italic;
+}
+
+h3 {
+   padding: 1.25rem;
+}
+
+hr {
+   margin: 2rem;
+}
+
+/* SECTION ONE */
+
+.section1 {
+   display: block;
+   width: 50%;
+   padding: 0.875rem;
+   margin: 2.5rem auto;
+}
+
+.section1 img {
+   width: 17rem;
+   float: left;
+   padding: 1.25rem;
+}
+
+ul {
+   list-style: none;
+   padding: 1.25rem;
+}
+
+.section1 li::before {
+   content: "";
+   background-image: url(./img/Transport-Bicycle-icon.png);
+   background-size: contain;
+   display: inline-block;
+   width: 2rem;
+   height: 2rem;
+   position: relative;
+   top: 10px;
+   margin-right: 10px;
+}
+
+/* MAIN SECTION */
+
+.coppi_more {
+   display: inline-block;
+   width: 32%;
+   height: 42vh;
+   padding: 10px;
+   text-align: justify;
+   border: 2px solid black;
+   overflow: auto;
+   margin-bottom: 1.75rem;
+}
+
+.coppi_more h3 {
+   padding-left: 0px;
+}
+
+.coppi_more img {
+   width: 100%;
+   height: 40vh;
+   object-fit: fill;
+}
+
+#italic {
+   font-style: italic;
+   color: white;
+   background-color: rgb(169, 177, 192);
+}
+
+/* FOOTER */
+
+.footer {
+   width: 80vw;
+   padding: 1rem;
+   margin: 2rem auto;
+   border-radius: 20px;
+   background-color: rgb(61, 62, 66);
+   color: #f0f3f6;
+   font-size: 32px;
+   text-align: center;
+}
+
+#quote {
+   font-size: 0.9rem;
+   font-family: "Times New Roman", Times, serif, "Lucida Sans Regular",
+      "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif,
+      "Arial Narrow", Arial, sans-serif;
+   padding-top: 0.8rem;
+   margin-left: 40%;
+}
